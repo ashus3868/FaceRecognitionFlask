@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table Data</title>
+</head>
+<body>
+<table border=1>
+    {% for key, value in result.items()%}
+    <tr>
+        <th>{{key}}</th>
+        <th>{{value}}</th>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
